@@ -9,7 +9,63 @@
     <title>Form Validator App</title>
 </head>
 <body>
-    
+
+    <div class="container">
+        <!-- action not required for demonstration -->
+        <form action="#" id="form" class="form">
+            <h2>Register With Us</h2>
+
+            <!-- Form Field -->
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input 
+                type="text" 
+                id="username" 
+                name="username" 
+                placeholder="Enter username">
+                <!-- For JavaScript Error Message -->
+                <small>Error Message</small>
+            </div>
+
+            <!-- Form Field -->
+            <div class="form-control">
+                <label for="email">Email</label>
+                <!-- leave type as text for js validation -->
+                <input 
+                type="text" 
+                id="email" 
+                name="email" 
+                placeholder="Enter your email address">
+                <!-- For JavaScript Error Message -->
+                <small>Error Message</small>
+            </div>
+
+            <!-- Form Field -->
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input 
+                type="password" 
+                id="password" 
+                name="password" 
+                placeholder="Enter password">
+                <!-- For JavaScript Error Message -->
+                <small>Error Message</small>
+            </div>
+
+            <!-- Form Field -->
+            <div class="form-control">
+                <label for="password2">Confirm Password</label>
+                <input 
+                type="password" 
+                id="password2" 
+                name="password2" 
+                placeholder="Confirm your password">
+                <!-- For JavaScript Error Message -->
+                <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
     <!-- JavaScript -->
     <script src="/assets/js/app.js"></script>
 </body>

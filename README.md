@@ -2,7 +2,7 @@
 
 The form validator is a small project developed using HTML, CSS and vanilla JavaScript, the purpose behind it is to demonstrate JavaScript validation
 
-![Mock Up]()
+![Mock Up](https://github.com/trevthedev777/Form-Validator/blob/master/assets/readmeImages/01_LandingPage.jpg?raw=true)
 
 [Form Validator Live Link](https://trevthedev777.github.io/Form-Validator/)
 
@@ -31,6 +31,10 @@ The form validator is a small project developed using HTML, CSS and vanilla Java
 
 -   The application was built and tested per element, running multiple console.log()'s to ensure the correct data was passed
 -   Each input validation was created then tested for showError() and showSuccess() returns
+
+![Failed Resgitration](https://github.com/trevthedev777/Form-Validator/blob/master/assets/readmeImages/03_Fail.jpg?raw=true)
+
+![Successful Resgistration](https://github.com/trevthedev777/Form-Validator/blob/master/assets/readmeImages/2_Success.jpg?raw=true)
 
 ## Deplyoment
 

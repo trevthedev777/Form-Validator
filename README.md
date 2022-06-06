@@ -20,7 +20,7 @@ The form validator is a small project developed using HTML, CSS and vanilla Java
 -   CSS3
     -   All styles updated using CSS
 -   JavaScript
-    -   All functionality and interacitvity was created witrh JavaScript
+    -   All functionality and interacitvity was created with JavaScript
 -   Github
     -   Source code pushed and stored on repo on github
     -   [Form Validator REPO](https://github.com/trevthedev777/Form-Validator)
@@ -41,8 +41,6 @@ The form validator is a small project developed using HTML, CSS and vanilla Java
 -   This application was pushed to a guthub repo and deployed using github poages
 
 ### Version Control
-
-The application was created using Gitpod and pushed to Github to the remote repository ‘https://github.com/trevthedev777/hangman’.
 
 The following git commands were used throughout development to push code to the remote repo:
 

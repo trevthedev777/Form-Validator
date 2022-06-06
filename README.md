@@ -42,8 +42,6 @@ The form validator is a small project developed using HTML, CSS and vanilla Java
 
 ### Version Control
 
-The application was created using Gitpod and pushed to Github to the remote repository ‘https://github.com/trevthedev777/hangman’.
-
 The following git commands were used throughout development to push code to the remote repo:
 
 `git add .` - This command was used to add the file(s) to the staging area before they are committed.

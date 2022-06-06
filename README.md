@@ -20,7 +20,7 @@ The form validator is a small project developed using HTML, CSS and vanilla Java
 -   CSS3
     -   All styles updated using CSS
 -   JavaScript
-    -   All functionality and interacitvity was created witrh JavaScript
+    -   All functionality and interacitvity was created with JavaScript
 -   Github
     -   Source code pushed and stored on repo on github
     -   [Form Validator REPO](https://github.com/trevthedev777/Form-Validator)

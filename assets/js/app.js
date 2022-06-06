@@ -5,7 +5,7 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 const password2 = document.getElementById("password2");
 
-/* Shows The Input Error Message*/
+/* Shows The Input Error Message and Outline*/
 // Takes in whatever the input is, and shows the message
 function showError(input, message) {
     // Input Border Change
@@ -14,7 +14,14 @@ function showError(input, message) {
     // small tag error message
     const small = formControl.querySelector("small");
     small.innerHTML = message;
-}
+};
+
+/* Shows The Input Success Outline*/
+function showSuccess(input) {
+    // Input Border Change
+    const formControl = input.parentElement;
+    formControl.className = "form-control success";
+};
 
 // Event Listeners
 form.addEventListener('submit', function(e) {

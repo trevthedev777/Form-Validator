@@ -29,45 +29,29 @@ function emailIsValid(email) {
     return re.test(String(email).toLowerCase());
 }
 
+/* Get Fieldname*/
+function getFieldName(input) {
+    // Returns word with Capital;ized first letter
+    return input.id.charAt(0).toUpperCase() + input.id.slice(1);
+};
+
+/* Checks the required fields and validates them*/
+function checkReqiured(inputArr) {
+    // forEach is the same as a for loop
+    inputArr.forEach(function(input) {
+        if (input.value.trim() === '') {
+            // Creates the custome input warning
+            showError(input, `${getFieldName(input)} is required`);
+        } else {
+            showSuccess(input);
+        };
+    });
+
+};
+
 // Event Listeners
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    // Username Validation
-    if (username.value === '') {
-        showError(username, 'Username is required');
-        console.log(showError);
-    } else {
-        showSuccess(username);
-        console.log(showSuccess);
-    };
-
-    // Email Validation
-    if (email.value === '') {
-        showError(email, 'Email address is required');
-        console.log(showError);
-    } else if (!emailIsValid(email.value)){
-        showError(email, 'Email is not valid');
-    } else {
-        showSuccess(email);
-        console.log(showSuccess);
-    };
-
-    // Password Validation
-    if (password.value === '') {
-        showError(password, 'Password is required');
-        console.log(showError);
-    } else {
-        showSuccess(password);
-        console.log(showSuccess);
-    };
-
-    // Confirm Password validation
-    if (password2.value === !password.value) {
-        showError(password2, 'Passwords do not match');
-        console.log(showError);
-    } else {
-        showSuccess(password2);
-        console.log(showSuccess);
-    };
+    checkReqiured([ username, email, password, password2 ]);
 });
